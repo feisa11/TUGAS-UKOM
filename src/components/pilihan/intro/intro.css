@@ -1,0 +1,25 @@
+.Intro{
+    height: calc(65vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 2rem;
+  color: black;
+}
+.bg {
+  display: flex;
+  align-items: end;
+  object-fit: cover;
+  height: 5rem;
+  right: 0;
+}
