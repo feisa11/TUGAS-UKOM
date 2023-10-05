@@ -1,20 +1,24 @@
 .Intro{
-    height: calc(65vh - 4rem);
+    height: calc(50vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
-    margin: 0 auto;
+    max-width: 87rem;
+    margin: 0.3rem auto;
     overflow: hidden;
     position: relative;
-    background: white;
+    background: linear-gradient(rgb(1, 73, 38), rgb(87, 88, 87));
+    /* border-style: solid;
+    border-color: grey;
+    border-width: 2px; */
+    border-radius: 1rem;
     display: flex;
     align-items: center;
     text-align: left;
 }
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600;
   margin: 2rem;
-  color: black;
+  color: white;
 }
 .bg {
   display: flex;
@@ -22,4 +26,10 @@
   object-fit: cover;
   height: 5rem;
   right: 0;
+}
+
+.hiasanLayanan {
+  width: 500px;
+  float: left;
+  margin-left: auto;
 }

@@ -1,19 +1,20 @@
 #intro {
     height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
+    max-width: 90rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
 
 .bg {
+    width: 70vh;
     position: absolute;
-    top: -4rem;
+    top: -10rem;
     right: 0;
     z-index: -1;
-    object-fit: cover;
-    height: 100vh;
+    object-fit: contain;
+    height: 150vh;
 }
 
 .introContent {
@@ -37,7 +38,7 @@
 }
 
 .introPara {
-    font-size: medium;
+    font-size: 15px;
     font-weight: 200;
 }
 
@@ -54,6 +55,10 @@
     margin: 0 0.25rem;
     height: 1rem;
 
+}
+
+.slogan {
+    font-size: 35px;
 }
 
 @media  screen and (max-width:810px) {

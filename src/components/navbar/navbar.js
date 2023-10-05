@@ -1,23 +1,35 @@
 import React from 'react';
 import "./navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logoo.png";
+import Telepon from "../../assets/telepon.png";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import { Link as Linkurl } from "react-router-dom";
+import Dropdown from 'react-dropdown';
+import './dropdown.css';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const options = [
+    'Layanan', 'Web Pembelajaran', 'Web Arsitektur', 
+  ];
+  const defaultOption = options[0];
+  
   return (
     <nav className='navbar'>
         <img src={logo} className='logo' alt='logo'/>
-        <div className='desktopMenu'>
+        <div className='navbar'>
+
             <Linkurl activeClass='active' className='desktopMenuItem' to="/">Home</Linkurl>
-            <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/pilihan">Layanan</Linkurl>
+            <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/pembelajaran">
+              <Dropdown options={options}  placeholder="Layanan" />
+            </Linkurl>
+            
         </div>
         <button className='desktopMenuBtn' onClick={() => {
           document.getElementById('contact').scrollIntoView({behavior:'smooth'});
         }}>
-            <img src={logo} alt='' className='desktopMenuImg'/>Contact me
+            <img src={Telepon} alt='' className='desktopMenuImg'/>Contact me
         </button>
 
         <img src={logo} className='mobMenu' alt='Menu' onClick={()=>setShowMenu(!showMenu)}/>
