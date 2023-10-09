@@ -1,0 +1,40 @@
+.judul{
+  height: calc(50vh - 4rem);
+  width: 100vw;
+  margin: 0 auto;
+  /* max-width: 87rem; */
+  /* margin: 0.3rem auto; */
+  /* margin-top: 7rem; */
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(rgb(29, 29, 29), rgb(33, 33, 33));
+  /* border-style: solid;
+  border-color: grey;
+  border-width: 2px; */
+  /* border-radius: 1rem; */
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.judulSet {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 2rem;
+  color: white;
+  margin-left: 7rem;
+}
+
+.bg {
+  display: flex;
+  align-items: end;
+  object-fit: cover;
+  height: 5rem;
+  right: 0;
+}
+
+.hiasanLayanan {
+  width: 500px;
+  float: left;
+  margin-left: auto;
+}

@@ -1,0 +1,31 @@
+.deskripsiLayanan {
+  height: calc(80vh - 4rem);
+  width: 100vw;
+  max-width: 87rem;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 20px;
+  display: inline-block;
+  margin: 9rem 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pengertian, .definisi {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.pengertianParagraf, .definisiParagraf {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.pertama {
+  margin: 0 20rem;
+}
+
+.kedua {
+  margin: 7rem 20rem;
+}

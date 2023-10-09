@@ -7,8 +7,8 @@
     position: relative;
 }
 
-.bg {
-    width: 70vh;
+.hiasan {
+    width: 60vh;
     position: absolute;
     top: -10rem;
     right: 0;
@@ -21,7 +21,7 @@
     height: 100vh;
     width: 100vw;
     padding: 2rem ;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 }
 
 .hello {
-    font-size: 1.75rem;
+    font-size: 1.9rem;
     font-weight: 100;
 }
 
@@ -58,8 +58,14 @@
 }
 
 .slogan {
-    font-size: 35px;
+    font-size: 38px;
 }
+
+/* .garisBatas {
+    width: 100%;
+    margin: 1rem 1rem;
+    background: rgb(217, 214, 214);
+} */
 
 @media  screen and (max-width:810px) {
     .bg {

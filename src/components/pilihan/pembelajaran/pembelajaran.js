@@ -1,7 +1,8 @@
 import React from 'react';
+import './pembelajaran.css';
 
 
-const Arsitektur = () => {
+const Pembelajaran = () => {
   return (
 
     <div className='deskripsiLayanan'>
@@ -18,4 +19,4 @@ const Arsitektur = () => {
   )
 }
 
-export default Arsitektur;
+export default Pembelajaran;

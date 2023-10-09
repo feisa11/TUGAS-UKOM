@@ -46,14 +46,7 @@
   text-decoration: none;
   border: none;
   border-radius: 1rem;
-  cursor: pointer;
 }
-
-.join:hover{
-  background-color: rgb(43, 42, 42);
-  color: white;
-}
-
 
 li {
   text-decoration: none;

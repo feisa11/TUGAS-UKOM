@@ -1,14 +1,14 @@
 import React from 'react';
-import './intro.css';
+import './title.css';
 import bg from '../../../assets/hiasanLayanan.png';
 
-const Intro = () => {
+const Title = () => {
   return (
-    <div className='Intro'>
-      <span className='title'>WEB PEMBELAJARAN</span>
+    <div className='title'>
+      <span className='titleSet'>WEB ARSITEKTUR</span>
       <img src={bg} className='hiasanLayanan' alt="bg" />
     </div>
   )
 }
 
-export default Intro
+export default Title;

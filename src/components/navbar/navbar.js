@@ -5,15 +5,14 @@ import Telepon from "../../assets/telepon.png";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import { Link as Linkurl } from "react-router-dom";
-import Dropdown from 'react-dropdown';
+// import Dropdown from 'react-dropdown';
 import './dropdown.css';
 
 const Navbar = () => {
+
+  const [open, setOpen] = useState(false);
+
   const [showMenu, setShowMenu] = useState(false);
-  const options = [
-    'Layanan', 'Web Pembelajaran', 'Web Arsitektur', 
-  ];
-  const defaultOption = options[0];
   
   return (
     <nav className='navbar'>
@@ -21,15 +20,29 @@ const Navbar = () => {
         <div className='navbar'>
 
             <Linkurl activeClass='active' className='desktopMenuItem' to="/">Home</Linkurl>
-            <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/pembelajaran">
-              <Dropdown options={options}  placeholder="Layanan" />
-            </Linkurl>
+            <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>
+              <span className='desktopMenuItem'>Layanan</span>
+            </div>
+
+            <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
+              <ul>
+                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/pembelajaran">
+                    <DropdownItem text = {'Web Pembelajaran'}/>
+                  </Linkurl>
+                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/arsitektur">
+                    <DropdownItem text = {'Web Arsitektur'}/>
+                  </Linkurl>
+                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/custom">
+                    <DropdownItem text = {'Web Custom'}/>
+                  </Linkurl>
+              </ul>
+            </div>
             
         </div>
         <button className='desktopMenuBtn' onClick={() => {
-          document.getElementById('contact').scrollIntoView({behavior:'smooth'});
+          document.getElementById('kontak').scrollIntoView({behavior:'smooth'});
         }}>
-            <img src={Telepon} alt='' className='desktopMenuImg'/>Contact me
+            <img src={Telepon} alt='' className='desktopMenuImg'/>Kontak
         </button>
 
         <img src={logo} className='mobMenu' alt='Menu' onClick={()=>setShowMenu(!showMenu)}/>
@@ -43,5 +56,13 @@ const Navbar = () => {
     </nav>
   )
 }
+
+function DropdownItem(props) { 
+  return(
+    <li className='dropdownItem'>
+      <a>{props.text}</a>
+    </li>
+  )
+ }
 
 export default Navbar

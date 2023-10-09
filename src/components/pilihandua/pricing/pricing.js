@@ -1,6 +1,5 @@
 import React from 'react';
 import './pricing.css';
-import { Link as Linkurl } from "react-router-dom";
 
 const Pricing = () => {
       return (
@@ -56,14 +55,14 @@ const Pricing = () => {
                 <span>per month</span>
               </ul>
 
-            <Linkurl activeClass='active' to="/form">
+              <Linkurl activeClass='active' to="/form">
               <button className='join'>Beli</button>
             </Linkurl>
+
           </div>
 
         </div>
       </section>
   )}
-
     
 export default Pricing;
