@@ -1,0 +1,64 @@
+
+.section {
+    margin: 0 auto;
+    min-height: calc(100vh - 17rem);
+    margin-bottom: 7rem;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.textPricing{
+    font-size: 3rem;
+}
+
+.aturPricing {
+  max-width: 90rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paket {
+  max-width: 60rem;
+  text-align: center;
+  background: rgb(92, 84, 84);
+  width: 20vw;
+  height: 19vw;
+  margin-right: 30px;
+  margin-left: 30px;
+  /* margin: auto; */
+  border-radius: 1rem;
+  font-style: 'Poppins';
+}
+
+.join {
+  background: white;
+  /* width: 70px; */
+  margin: 1rem;
+  height: 30px;
+  width: 100px;
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
+}
+
+li {
+  text-decoration: none;
+}
+
+.titlePaket{
+  color: rgb(42, 41, 41);
+  padding-top: 1rem;
+  padding-bottom: 1.rem;
+  font-size: 30px;
+}
+
+.titlePricing {
+  font-size: 3rem;
+}

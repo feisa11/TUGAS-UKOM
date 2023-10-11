@@ -30,7 +30,7 @@ const Kelebihan = () => {
         <div className='subjudul'>Komunikasi Lebih Baik</div>
           <p className='paragrap'>Situs web memungkinkan Anda untuk berkomunikasi secara langsung dengan pelanggan atau pengunjung melalui formulir kontak, obrolan langsung, atau fitur komunikasi lainnya.</p>
           </div>
-    </div>
+          </div>
   )
 }
 

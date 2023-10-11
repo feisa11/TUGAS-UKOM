@@ -21,7 +21,7 @@ const Pricing = () => {
                   <span>per month</span>
               </ul>
 
-              <Linkurl activeClass='active' to="/form">
+              <Linkurl activeClass='active' to="/kontak">
               <button className='join'>Beli</button>
             </Linkurl>
             
@@ -39,7 +39,7 @@ const Pricing = () => {
                   <span>per month</span>
               </ul>
 
-              <Linkurl activeClass='active' to="/form">
+              <Linkurl activeClass='active' to="/kontak">
               <button className='join'>Beli</button>
             </Linkurl>
 
@@ -56,7 +56,7 @@ const Pricing = () => {
                 <span>per month</span>
               </ul>
 
-            <Linkurl activeClass='active' to="/form">
+            <Linkurl activeClass='active' to="/kontak">
               <button className='join'>Beli</button>
             </Linkurl>
           </div>

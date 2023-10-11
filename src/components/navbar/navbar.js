@@ -21,16 +21,16 @@ const Navbar = () => {
 
             <Linkurl activeClass='active' className='desktopMenuItem' to="/">Home</Linkurl>
             <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>
-              <span className='desktopMenuItem'>Layanan</span>
+              <span className='desktopMenuItem'>Pilihan Web</span>
             </div>
 
             <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
               <ul>
-                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/pembelajaran">
-                    <DropdownItem text = {'Web Pembelajaran'}/>
+                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/sekolah">
+                    <DropdownItem text = {'Web Sekolah'}/>
                   </Linkurl>
-                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/arsitektur">
-                    <DropdownItem text = {'Web Arsitektur'}/>
+                  <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/bisnis">
+                    <DropdownItem text = {'Web Bisnis'}/>
                   </Linkurl>
                   <Linkurl activeClass='active' className='desktopMenuItem dropbtn' to="/web/custom">
                     <DropdownItem text = {'Web Custom'}/>
@@ -42,7 +42,9 @@ const Navbar = () => {
         <button className='desktopMenuBtn' onClick={() => {
           document.getElementById('kontak').scrollIntoView({behavior:'smooth'});
         }}>
-            <img src={Telepon} alt='' className='desktopMenuImg'/>Kontak
+            {/* <img src={Telepon} alt='' className='desktopMenuImg'/> */}
+            
+            Gabung
         </button>
 
         <img src={logo} className='mobMenu' alt='Menu' onClick={()=>setShowMenu(!showMenu)}/>

@@ -2,24 +2,28 @@
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
+    max-width: 100rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    padding: 5rem 1rem;
+    margin-top: 17rem;
+    background: rgb(48, 48, 48);
+    right: 1rem;
 }
 
 .worksTittle {
-    margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .worksDesc {
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
+    margin-bottom: 2rem;
+    max-width: 80rem;
 }
 
 .worksImgs {
@@ -28,12 +32,12 @@
     justify-content: center;
     flex-wrap: wrap ;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 80rem;
 }
 
 .worksimg {
     object-fit: cover;
-    height: 20rem;
+    height: 15rem;
     margin: 0.5rem;
 }
 

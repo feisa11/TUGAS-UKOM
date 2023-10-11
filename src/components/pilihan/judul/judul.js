@@ -5,7 +5,7 @@ import bg from '../../../assets/hiasanLayanan.png';
 const Judul = () => {
   return (
     <div className='judul'>
-      <span className='judulSet'>WEB PEMBELAJARAN</span>
+      <span className='judulSet'>WEB SEKOLAH</span>
       <img src={bg} className='hiasanLayanan' alt="bg" />
     </div>
   )

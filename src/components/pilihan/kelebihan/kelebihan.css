@@ -1,18 +1,18 @@
 .kelebihanLayanan {
-  height: calc(80vh - 4rem);
   width: 100vw;
-  max-width: 87rem;
   margin: 0 auto;
+  max-width: 87rem;
   overflow: hidden;
   font-size: 20px;
 }
+
 
 .kelebihan {
   font-weight: 300;
   font-size: 40px;
   text-align: center;
   font-style: 'Poppins';
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .subjudul {

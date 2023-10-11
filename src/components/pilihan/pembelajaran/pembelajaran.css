@@ -1,15 +1,14 @@
 .deskripsiLayanan {
-  height: calc(80vh - 4rem);
+  min-height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 87rem;
   margin: 0 auto;
   overflow: hidden;
   font-size: 20px;
-  display: inline-block;
-  margin: 9rem 3rem;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
+  position: relative;
 }
 
 .pengertian, .definisi {

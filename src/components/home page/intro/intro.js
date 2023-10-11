@@ -10,8 +10,8 @@ const Intro = () => {
         <div className='introContent'>
             <span className='hello'>Hello,</span>
             <span className='introText'>We Are <span className='introName'>Websitor</span></span>
-            <span className="slogan">Jual Beli Website Lebih Mudah dari Sebelumnya!</span> 
-            <p className='introPara'>Jangan lewatkan peluang untuk membeli situs web dengan mudah dan aman.<br/> Bergabunglah dengan kami di Websitor sekarang dan mulailah perjalanan Anda <br /> menuju kesuksesan digital.
+            <span className="slogan">Jasa Pembuatan Website <br />  yang Anda Cari!</span> 
+            <p className='introPara'>Jangan lewatkan peluang untuk membeli situs web dengan mudah dan aman. Bergabunglah dengan kami <br /> di Websitor sekarang dan mulailah perjalanan Anda menuju kesuksesan digital.
             </p> 
             {/* <Link>
                 <button className='btn'>
