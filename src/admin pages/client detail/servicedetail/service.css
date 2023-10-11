@@ -1,0 +1,16 @@
+.service {
+    width: 80vw;
+    margin: auto;
+}
+
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h2 {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
